@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile Share | Abhinav</title>
+  </head>
+  <body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="wrapper">
+      <div class="card">
+        <img class="card-img" src="abhinav blur1.jpg" alt="" />
+        <h1>Abhinav Tiwari</h1>
+        <p>Frontend Developer</p>
+        <div class="social">
+          <button onclick="openModal()" class="button">
+            <i class="ri-share-forward-fill"></i> Share My Profile
+          </button>
+          <button class="button">Follow Me</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal-head">
+        <div class="modal-heading">
+          <h2>Share My Profile</h2>
+          <i onclick="closeModal()" class="ri-close-line close-icon"></i>
+        </div>
+        <p class="modal-share">Share this via</p>
+        <div class="share-icons">
+         <div class="icons-social icons-link"><i class="ri-linkedin-fill"></i></div>
+         <div class="icons-social icons-twi"><i class="ri-twitter-fill"></i></div>
+         <div class="icons-social icons-insta"><i class="ri-instagram-line"></i></div>
+         <div class="icons-social icons-git"><i class="ri-github-fill"></i></div>
+         <div class="icons-social icons-red"><i class="ri-reddit-line"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
